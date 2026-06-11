@@ -13,7 +13,7 @@ int main() {
 
     last = arr[n - 1];  
 
-    // shift elements right
+    
     for(int i = n - 1; i > 0; i--) {
         arr[i] = arr[i - 1];
     }
